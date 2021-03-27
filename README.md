@@ -2,7 +2,7 @@ Group 6
 1. Md. Kaksudur Rahamn (CSE-01306093)
 2. Anisur Rahman (CSE-01306134)
 3. Toha moni Mojomder (CSE-01306087)
-4. Asma fauzia (CSE-01306132)
+4. Asma fowzia (CSE-01306132)
 
 CONDITIONS FOR SINGLE CHANNEL QUEUING MODEL
 The single channel queuing model can be fitted in situations where the following seven conditions are fulfilled:
