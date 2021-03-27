@@ -1,5 +1,5 @@
 Group 6
-1. Md. Kaksudur Rahamn (CSE-01306093)
+1. Md. Maksudur Rahamn (CSE-01306093)
 2. Anisur Rahman (CSE-01306134)
 3. Toha moni Mojomder (CSE-01306087)
 4. Asma fowzia (CSE-01306132)
