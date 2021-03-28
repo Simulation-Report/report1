@@ -34,3 +34,20 @@ A continuous random variable takes an infinite number of possible values. For ex
 A curve meeting needed requirements is often known as a density curve. Some examples of continuous probability distributions are normal distribution, exponential distribution, beta distribution, etc.
 
 There’s another type of distribution that often pops up in literature which you should know about called cumulative distribution function. All random variables (discrete and continuous) have a cumulative distribution function. It is a function giving the probability that the random variable X is less than or equal to x, for every value x. For a discrete random variable, the cumulative distribution function is found by summing up the probabilities.
+
+
+Single Channel Queuing Problems:
+
+Single-station or single-channel queuing problem is the name applied to those problems in which only one unit (station) is delivering the service as illustrated in Fig, where circles represent the arrival elements (events) and a square represents a station which contains an element being serviced.
+
+Poisson Arrivals:
+
+The Poisson is a discrete probability distribution and yields the number of arrivals in a given time. The exponential distribution is a continuous function and yields the distribution of the time intervals between arrivals. The Poisson distribution considers the behavior of arrivals as occurring at random and postulates the presence of a constant “λ” which is independent of the time. The constant λ represents the mean arrival rate or the number of arrivals per unit of time, and λ 1 is the length of the time interval between two consecutive arrivals.
+
+Exponential Service Times:
+
+In Exponential Distribution, we can generate an exponentially distributed random variable using scipy.stats module's expon.rvs() method which takes shape parameter scale as its argument which is nothing but 1/lambda in the equation. To shift distribution use the loc argument, size decides the number of random variates in the distribution.
+
+Mathematical Analysis:
+
+So first we import scipy.stats package for importing necessary function. Here we use Poisson and Exponential Distribution to generate interarrival time and service time respectively. µ=5.6 customers/minute (arrival rate) λ=1 customers/minute (service rate) for 20 customers.
